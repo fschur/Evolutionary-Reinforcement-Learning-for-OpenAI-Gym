@@ -3,7 +3,8 @@ Implementation of Augmented-Random-Search for OpenAI Gym environments.
 The paper can be found here: [Simple random search provides a competitive approach to reinforcement learning](https://arxiv.org/abs/1803.07055)
 
 ## Augmented-Random-Search (ARS)
-ARS is an Evolutionary Strategy with a linear policy with weights w<sub>p<sub>.  
+ARS is an Evolutionary Strategy where the policy is linear with weights w<sub>p<sub>  
+
 Given an obervation s<sub>t<sub> an a ction a<sub>t<sub> is choosen by:
 
 Continuous case:
