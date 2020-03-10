@@ -1,5 +1,5 @@
 # Evolutionary Reinforcement Learning for OpenAI Gym
-Implementation of Augmented-Random-Search for OpenAI Gym environments in Python. Performance is here defined as the sample efficiency of the algorithm i.e how good is the average reward after using x episodes of interaction in the environment.
+Implementation of Augmented-Random-Search for OpenAI Gym environments in Python. Performance is defined as the sample efficiency of the algorithm i.e how good is the average reward after using x episodes of interaction in the environment.
 The paper can be found here: [Simple random search provides a competitive approach to reinforcement learning](https://arxiv.org/abs/1803.07055)
 
 ## Augmented-Random-Search (ARS)
