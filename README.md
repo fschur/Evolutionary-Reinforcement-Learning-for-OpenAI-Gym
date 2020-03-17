@@ -5,7 +5,7 @@ The paper can be found here: [Simple random search provides a competitive approa
 ## Augmented-Random-Search (ARS)
 ARS is an Evolutionary Strategy where the policy is linear with weights w<sub>p</sub>  
 
-Given an obervation s<sub>t</sub> an action a<sub>t</sub> is choosen by:  
+Given an observation s<sub>t</sub> an action a<sub>t</sub> is chosen by:  
 
 Continuous case:  
 a<sub>t</sub> = w<sub>p</sub> * s<sub>t</sub>  
