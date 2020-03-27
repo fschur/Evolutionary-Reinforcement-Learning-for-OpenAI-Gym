@@ -135,7 +135,7 @@ def main(step_size=0.5, nu=0.5, H=np.inf, num_individuals=50, num_selected=50, m
         best_idx = np.array(np.argpartition(relative_rewards, -num_selected)[-num_selected:])
         best_relative_rewards = relative_rewards[best_idx]
         std = np.std(best_relative_rewards)
-        direction = (np.expand_dims(np.expand_dims(best_relative_rewards, axis=1), axis=1)*translations).sum(0)
+        direction = (np.expand_dims(np.expand_dims(best_relative_rewards, axis=1), axis=1)*translations[best_idx]).sum(0)
         current_policy += (step_size/(num_selected*std))*direction
 
         # computes running mean and standard deviation of the encountered states/observations
